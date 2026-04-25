@@ -104,11 +104,7 @@
         }
 
         function generateHome() {
-            return `<html><body style="background:var(--bg-dark);color:white;display:flex;flex-direction:column;align-items:center;justify-content:center;height:100vh;margin:0;font-family:sans-serif;">
-                <img src="https://cdn.jsdelivr.net/gh/tharun9772/tharun9772.github.io@main/1f3ae.png" style="width:100px;filter:drop-shadow(0 0 10px var(--accent))">
-                <h1 style="color:var(--accent); margin-top:20px;">DK UBG</h1>
-                <p style="color:var(--text-main); font-size:12px; margin-top:10px; opacity:0.6;">v4.0 STABLE</p>
-            </body></html>`;
+            return `<body style="margin:0;height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;background:#06230a;font-family:'Segoe UI',sans-serif;color:#fff;border-top:8px solid #ff4766;"><img src="https://cdn.jsdelivr.net/gh/dk-ubg/games@main/assets/dk-ubg.png" style="width:120px;height:120px;border-radius:50%;border:4px solid #4caf50;background:#fff;padding:5px;box-shadow:0 0 30px rgba(76,175,80,0.4);object-fit:contain;"><h1 style="margin:20px 0 5px;letter-spacing:2px;font-size:2.5rem;color:#ff4766;text-shadow:2px 2px #000;">DK <span style="color:#4caf50">UBG</span></h1><p style="text-transform:uppercase;letter-spacing:4px;font-size:10px;opacity:0.7;background:rgba(255,255,255,0.1);padding:4px 12px;border-radius:20px;">DK UBG</p></body>`;
         }
 
         function generateGames() {
