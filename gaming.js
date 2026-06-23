@@ -194,7 +194,7 @@
             }
         }
         async function fetchHydra() {
-            const res = await fetch("https://cdn.jsdelivr.net/gh/Hydra-Network/hydra-assets@main/gmes.json");
+            const res = await fetch("https://cdn.jsdelivr.net/gh/tharuniscool/hydra-assets@main/gmes.json");
             const d = await res.json();
             d.forEach(g => allGames.push({ name: g.title, img: "https://cdn.jsdelivr.net/gh/Hydra-Network/hydra-assets@main/"+g.thumb, url: "https://cdn.jsdelivr.net/gh/Hydra-Network/hydra-assets@main/gmes/"+g.file_name }));
         }
